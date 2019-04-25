@@ -12,7 +12,7 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 
 
 ## My Objectives
-1. Inject all html.
+1. Inject all html?
 2. Delve into markdown for an .md file. 
 3. Less
 	* a. Mixins
@@ -25,6 +25,7 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 	* d. Don't miss special days. 
 	* e. Login in with access to automated messages or reminders
 	* f. Send date and time, large text field. 
+	* g. **BUTTON**
 5. Stretch
 	* a. Social media integration. 
 	* b. advertizing on socila media. 
@@ -39,3 +40,5 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 **MVP:** As a user I want to login and see a list of automated messages that I have previously set up so I can click on a message and edit or delete it. As a user I want to be able to create an autmated message to a friend. A message should include a send date and time and a long text field that enables the message curator the ability to send a custom message.
 
 **Stretch:** (Mobile App) - Allow contact prospecting to migrate your contacts into the app. (Web App) - Allow for a social media sharing aspect that allows you to advertise the app on your social media platform of choice.
+
+
