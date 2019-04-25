@@ -20,15 +20,12 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 	* c. ?
 4. Project description 
 	* a. Important dates
-	* b. Categorized
+	* b. 
 	* c. Text notifications
 	* d. Don't miss special days. 
 	* e. Login in with access to automated messages or reminders
 	* f. Send date and time, large text field. 
 	* g. **BUTTON**
-5. Stretch
-	* a. Social media integration. 
-	* b. advertizing on socila media. 
 
 ### Project description
 * Enable users to keep track of important dates
