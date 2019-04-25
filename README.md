@@ -14,11 +14,12 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 ## My Objectives
 1. Inject all html?
 2. Delve into markdown for an .md file. 
-3. Less
+3. Make a border with of a cell phone. 
+4. Less
 	* a. Mixins
 	* b. variables
 	* c. ?
-4. Project description 
+5. Project description 
 	* a. Important dates
 	* b. 
 	* c. Text notifications
