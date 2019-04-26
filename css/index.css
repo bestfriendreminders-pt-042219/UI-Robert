@@ -1,3 +1,23 @@
-nav a {
-  color: #5C5752;
+.header-nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #532516;
+  height: 100px;
+}
+.header-nav nav {
+  padding: 50px;
+}
+.header-nav a {
+  color: #D4D4D4;
+  padding: 30px;
+  font-size: 1.3em;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Arial';
+}
+.header-nav h1 {
+  color: #D4D4D4;
+  margin-top: 5px;
+  font-size: 2.5em;
+  font-family: 'Comic Sans MS';
 }
