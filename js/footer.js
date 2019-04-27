@@ -3,14 +3,17 @@ class Footer {
 	constructor(footer){
 		this.footer = footer;
 
+
+		const images = ['img/twitter.png', 'img/instagram.png', 'img/facebook.png']
+
 		footer = document.querySelector('footer')
-		// footer.style.height = '200px';
-		// footer.style.backgroundColor = '#090707';
-		// console.log(footer)
-		const footerImg = document.createElement('img')
+		
+		images.forEach(function(imgFile){
+			const footerImg = document.createElement('img')
 		console.log(footerImg)
-		footerImg.setAttribute('src', 'img/twitter.jpg');
-		footer.appendChild(footerImg)
+			footerImg.setAttribute('src', imgFile);
+			footer.appendChild(footerImg)
+		})
 	}
 }
 

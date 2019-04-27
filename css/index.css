@@ -47,7 +47,14 @@
   padding-bottom: 20px;
 }
 footer {
+  display: flex;
+  justify-content: center;
   background-color: #532516;
   border-top: 8px solid #090707;
   height: 100px;
+}
+footer img {
+  width: 70px;
+  height: 70px;
+  margin: 10px 50px 0 50px;
 }
