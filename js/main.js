@@ -7,6 +7,7 @@ class Main {
 		main.className = 'main';
 		console.log(main)
 
+// FIgure out how to insert before. Will come back to. 
 		const titleSection = document.querySelector('#mainTitleSection');
 		const mainTitle = document.createElement('h1');
 // console.log(titleSection)
@@ -15,7 +16,7 @@ class Main {
 		// titleSection.className = 'mainTitleSection';
 		mainTitle.textContent = 'Your calendar at your fingertips!';
 
-		// section.appendChild(mainTitle)
+
 	}
 }
 
