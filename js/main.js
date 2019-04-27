@@ -5,7 +5,7 @@ class Main {
 		this.main = main;
 		main = document.querySelector('main');
 		main.className = 'main';
-		console.log(main)
+		// console.log(main)
 
 // FIgure out how to insert before. Will come back to. 
 		const titleSection = document.querySelector('#mainTitleSection');

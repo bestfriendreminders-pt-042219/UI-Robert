@@ -12,7 +12,7 @@
 .header-nav a {
   color: #D4D4D4;
   padding: 30px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: center;
   text-decoration: none;
   font-family: 'Arial';
@@ -45,4 +45,9 @@
   height: 50px;
   padding-top: 1px;
   padding-bottom: 20px;
+}
+footer {
+  background-color: #532516;
+  border-top: 8px solid #090707;
+  height: 100px;
 }

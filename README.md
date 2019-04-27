@@ -40,6 +40,7 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 		* Spouse
 		* Parents
 		* BFF
+	* Graduation
 	* Never Forget The Special Days
 	* Mark it a forget it until we remind you
 	* 
