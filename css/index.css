@@ -20,21 +20,26 @@
 .header-nav h1 {
   color: #D4D4D4;
   margin-top: 5px;
-  font-size: 2.5em;
+  font-size: 2.4em;
   font-family: 'Comic Sans MS';
 }
 .main {
   display: flex;
+  flex-wrap: wrap;
   padding: 50px;
   background-color: #975D41;
   height: 500px;
 }
 .main .sections {
-  width: 200px;
-  height: 100px;
+  box-sizing: border-box;
+  width: 250px;
+  height: 150px;
   background-color: #978675;
+  margin: 20px;
+  padding: 5px;
 }
 #mainTitleSection {
+  border-bottom: 2px dotted #D4D4D4;
   width: ;
   background-color: #975D41;
   height: 50px;

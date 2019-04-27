@@ -30,6 +30,20 @@ https://dribbble.com/shots/6379149-Food-guide?utm_source=Clipboard_Shot&utm_camp
 	* f. Send date and time, large text field. 
 	* g. **BUTTON**
 
+8. Marketing copy
+	* Birthdays
+		* Girlfriend
+		* Spouse
+		* Family
+		* BFF
+	* Aniversarry's 
+		* Spouse
+		* Parents
+		* BFF
+	* Never Forget The Special Days
+	* Mark it a forget it until we remind you
+	* 
+
 ### Project description
 * Enable users to keep track of important dates
 * Provide users a reliable way to send friends/family messages on an important date
