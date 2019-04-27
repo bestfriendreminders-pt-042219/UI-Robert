@@ -24,7 +24,20 @@
   font-family: 'Comic Sans MS';
 }
 .main {
+  display: flex;
+  padding: 50px;
   background-color: #975D41;
   height: 500px;
-  margin-top: -21px;
+}
+.main .sections {
+  width: 200px;
+  height: 100px;
+  background-color: #978675;
+}
+#mainTitleSection {
+  width: ;
+  background-color: #975D41;
+  height: 50px;
+  padding-top: 1px;
+  padding-bottom: 20px;
 }

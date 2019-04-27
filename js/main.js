@@ -7,10 +7,32 @@ class Main {
 		main.className = 'main';
 		console.log(main)
 
+		const titleSection = document.querySelector('#mainTitleSection');
 		const mainTitle = document.createElement('h1');
-		mainTitle.textContent = 'somthin is here!'
-		main.appendChild(mainTitle)
+// console.log(titleSection)
+		// main.appendChild(titleSection)
+		titleSection.appendChild(mainTitle)
+		// titleSection.className = 'mainTitleSection';
+		mainTitle.textContent = 'Your calendar at your fingertips!';
+
+		// section.appendChild(mainTitle)
 	}
 }
 
-main = new Main();
+
+const main = new Main();
+
+class Token {
+	constructor(main){
+		this.main = main;
+		main = document.querySelector('main')
+		const section = document.createElement('section');
+		main.appendChild(section)
+
+		// console.log(main)
+		section.className = 'sections';
+
+	}
+};
+
+const token = new Token();

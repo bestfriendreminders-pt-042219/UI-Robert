@@ -6,7 +6,7 @@ class Footer {
 		footer = document.querySelector('footer')
 		footer.style.height = '200px';
 		footer.style.backgroundColor = '#090707';
-		console.log(footer)
+		// console.log(footer)
 	}
 }
 
