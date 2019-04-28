@@ -9,8 +9,8 @@ class Main {
 
 // FIgure out how to insert before. Will come back to. 
 		const titleSection = document.querySelector('#mainTitleSection');
-		const mainTitle = document.createElement('h1');
-		mainTitle.textContent = 'Your calendar at your fingertips!';
+		const mainTitle = document.createElement('h2');
+		mainTitle.textContent = 'Never Forget The Special Dates!';
 
 		const signInButton = document.createElement('button')
 		signInButton.textContent = 'Sign In Here';
@@ -27,6 +27,7 @@ const main = new Main();
 // This is working, if time allows create an array to populate the main sections with tokens. 
 class Token {
 			constructor(attrs){
+
 				const main = document.querySelector('main')
 				const section = document.createElement('section');
 				main.appendChild(section)
@@ -39,33 +40,33 @@ class Token {
 			// P elements in section classes. 
 				const pElements = document.createElement('p');
 				pElements.textContent = attrs.text;
-				sectionH2.appendChild(pElements)
+				section.appendChild(pElements)
 			}
 		}; // End of Token class
 
-const token = new Token({
-		secH2: 'SOmething goes here',
-		text: 'A long winded explanation of nothing.'
+const wifeBday = new Token({
+		secH2: "Wife's Birthday!",
+		text: "Make her the happiest woman on Earth!",
 	});
 
-const anotherToken = new Token({
-		secH2: 'Another token!',
-		text: 'A long winded explanation of nothing.'
+const aniversary = new Token({
+		secH2: 'Aniversary!',
+		text: 'Make it the best one ever!'
 	});
-const thirdToken = new Token({
-		secH2: 'And another',
-		text: 'A long winded explanation of nothing.'
+const GFbday = new Token({
+		secH2: "Girlfriend's Birthday",
+		text: 'Gotta keep the good times rolling!'
 	});
-const fourthToken = new Token({
-	secH2: 'And Another',
-	text: 'A long winded explanation of nothing.'
+const HusbandBday = new Token({
+	secH2: "Husband's Birthday",
+	text: 'Even if he forgot!'
 });
-const fifthToken = new Token({
-	secH2: 'And Another',
-	text: 'A long winded explanation of nothing.'
+const ParentsAniversary = new Token({
+	secH2: 'Parents Aniversary',
+	text: "A milestone everyone should celebrate!"
 });
-const sixthToken = new Token({
-	secH2: 'Another',
-	text: 'A long winded explanation of nothing.'
+const bFF = new Token({
+	secH2: 'BFF',
+	text: "Been friends forever, time to celebrate!"
 });
 

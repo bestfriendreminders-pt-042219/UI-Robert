@@ -3,7 +3,7 @@
   justify-content: space-around;
   background-color: #532516;
   height: 100px;
-  border-bottom: 10px solid #D4D4D4;
+  border-bottom: 5px solid #D4D4D4;
   margin-bottom: 0;
 }
 .header-nav nav {
@@ -22,6 +22,7 @@
   margin-top: 5px;
   font-size: 2.4em;
   font-family: 'Comic Sans MS';
+  text-shadow: 2px 2px #090707;
 }
 .main {
   display: flex;
@@ -36,13 +37,22 @@
   height: 250px;
   background-color: #978675;
   margin: 20px;
-  padding: 5px;
+  padding: 25px 10px;
   border-radius: 10px;
 }
+.main .sections h2 {
+  font-weight: bolder;
+  font-size: 2em;
+}
+.main .sections p {
+  font-weight: 600;
+  text-indent: 10px;
+  padding: 10px;
+}
 .background-image {
-  background-image: url('../img/calendar-1.png');
+  background-image: url('../img/blank-day.png');
   background-position: center;
-  background-size: 110%;
+  background-size: 150%;
   background-repeat: no-repeat;
 }
 #mainTitleSection {
@@ -50,9 +60,15 @@
   justify-content: space-around;
   border-bottom: 2px dotted #D4D4D4;
   background-color: #975D41;
-  height: 50px;
-  padding-top: 1px;
+  height: 60px;
+  padding-top: ;
   padding-bottom: 20px;
+}
+#mainTitleSection h2 {
+  font-size: 2em;
+  font-weight: ;
+  letter-spacing: 10px;
+  text-shadow: 1px 1px #A5A4A2;
 }
 #mainTitleSection button {
   height: 60px;
