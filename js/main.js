@@ -48,10 +48,17 @@ const wifeBday = new Token({
 		secH2: "Wife's Birthday!",
 		text: "Make her the happiest woman on Earth!",
 	});
-
+const neverMis = new Token({
+		secH2: "Never miss the special days!",
+		text: "A reminder can save a relationship!",
+	});
 const aniversary = new Token({
 		secH2: 'Aniversary!',
 		text: 'Make it the best one ever!'
+	});
+const textNotification = new Token({
+		secH2: "Text Notifications!",
+		text: "Reminder's when you need them!",
 	});
 const GFbday = new Token({
 		secH2: "Girlfriend's Birthday",
