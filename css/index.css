@@ -28,16 +28,22 @@
   flex-wrap: wrap;
   padding: 50px;
   background-color: #975D41;
-  height: 500px;
+  height: auto;
 }
 .main .sections {
   box-sizing: border-box;
   width: 250px;
-  height: 150px;
+  height: 250px;
   background-color: #978675;
   margin: 20px;
   padding: 5px;
   border-radius: 10px;
+}
+.background-image {
+  background-image: url('../img/calendar-1.png');
+  background-position: center;
+  background-size: 110%;
+  background-repeat: no-repeat;
 }
 #mainTitleSection {
   display: flex;

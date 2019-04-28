@@ -27,14 +27,19 @@ const main = new Main();
 // This is working, if time allows create an array to populate the main sections with tokens. 
 class Token {
 			constructor(attrs){
+				
+				// this.main = attrs.main;
+				// this.secH2 = attrs.secH2;
 				const main = document.querySelector('main')
 				const section = document.createElement('section');
 				main.appendChild(section)
-				section.className = 'sections background-image';
-
+				section.className = 'sections';
+			// H2 in section elements
 				const sectionH2 = document.createElement('h2');
 				sectionH2.textContent = attrs.secH2;
 				section.appendChild(sectionH2)
+				// console.log(attrs.secH2)
+				// console.log(main)
 
 			// P elements in section classes. 
 				const pElements = document.createElement('p');
