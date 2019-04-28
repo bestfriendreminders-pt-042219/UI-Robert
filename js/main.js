@@ -10,9 +10,14 @@ class Main {
 // FIgure out how to insert before. Will come back to. 
 		const titleSection = document.querySelector('#mainTitleSection');
 		const mainTitle = document.createElement('h1');
-// console.log(titleSection)
-		titleSection.appendChild(mainTitle)
 		mainTitle.textContent = 'Your calendar at your fingertips!';
+
+		const signInButton = document.createElement('button')
+		signInButton.textContent = 'Sign In Here';
+
+		titleSection.appendChild(mainTitle)
+		titleSection.appendChild(signInButton)
+console.log(titleSection)		
 	}
 }
 
@@ -68,6 +73,4 @@ const sixthToken = new Token({
 	secH2: 'Another',
 	text: 'A long winded explanation of nothing.'
 });
-
-
 

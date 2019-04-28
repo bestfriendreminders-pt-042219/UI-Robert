@@ -15,14 +15,29 @@
 		background-color: @section-background;
 		margin: 20px;
 		padding: 5px;
+		border-radius: 10px;
 	}
 }
 
 #mainTitleSection {
+		display: flex;
+		justify-content: space-around;
 		border-bottom: 2px dotted @header-border-bottom;
-		width: ;
 		background-color: @main-background-color;
 		height: 50px;
 		padding-top: 1px;
 		padding-bottom: 20px;
+
+		button {
+			height: 60px;
+			background-color: @button-color;
+			border: 2px solid @button-border;
+			padding: 0 30px;
+			margin-top: 5px;
+			border-radius: 13px;
+
+			font-size: 1.2em;
+			font-weight: bold;
+			color: @button-font-color;
+		}
 	}

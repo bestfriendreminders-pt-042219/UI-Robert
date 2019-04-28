@@ -37,14 +37,27 @@
   background-color: #978675;
   margin: 20px;
   padding: 5px;
+  border-radius: 10px;
 }
 #mainTitleSection {
+  display: flex;
+  justify-content: space-around;
   border-bottom: 2px dotted #D4D4D4;
-  width: ;
   background-color: #975D41;
   height: 50px;
   padding-top: 1px;
   padding-bottom: 20px;
+}
+#mainTitleSection button {
+  height: 60px;
+  background-color: #532516;
+  border: 2px solid #A5A4A2;
+  padding: 0 30px;
+  margin-top: 5px;
+  border-radius: 13px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #D4D4D4;
 }
 footer {
   display: flex;
@@ -54,7 +67,7 @@ footer {
   height: 100px;
 }
 footer img {
-  width: 70px;
-  height: 70px;
-  margin: 10px 50px 0 50px;
+  width: 50px;
+  height: 50px;
+  margin: 20px 30px 0 30px;
 }

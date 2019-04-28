@@ -4,13 +4,14 @@ class Footer {
 		this.footer = footer;
 
 
-		const images = ['img/twitter.png', 'img/instagram.png', 'img/facebook.png']
+		const imagesLight = ['img/twitter.png', 'img/instagram.png', 'img/facebook.png'];
+		const imagesBrown = ['img/twitter-brown.png', 'img/instagram-brown.png', 'img/facebook-brown.png'];
+		const imagesDark = ['img/twitter-dark.png', 'img/instagram-dark.png', 'img/facebook-dark.png'];
 
 		footer = document.querySelector('footer')
 		
-		images.forEach(function(imgFile){
+		imagesLight.forEach(function(imgFile){
 			const footerImg = document.createElement('img')
-		console.log(footerImg)
 			footerImg.setAttribute('src', imgFile);
 			footer.appendChild(footerImg)
 		})
