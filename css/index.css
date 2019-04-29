@@ -24,10 +24,25 @@
   font-family: 'Comic Sans MS';
   text-shadow: 2px 2px #090707;
 }
+@media (max-width: 800px) {
+  .header-nav h1 {
+    font-size: 2em;
+    margin-left: 20px;
+  }
+  .header-nav nav {
+    padding: 40px 20px;
+  }
+  .header-nav a {
+    padding: 5px;
+  }
+}
 @media (max-width: 500px) {
   .header-nav h1 {
     font-size: 1.3em;
-    margin-left: 50px;
+    margin-left: 30px;
+  }
+  .header-nav a {
+    padding: 5px;
   }
 }
 .main {
@@ -47,8 +62,10 @@
   border-radius: 10px;
 }
 .main .sections h2 {
+  position: relative;
   font-weight: bolder;
   font-size: 2em;
+  z-index: 10;
 }
 .main .sections p {
   font-weight: 600;
@@ -56,8 +73,12 @@
   padding: 10px;
 }
 .main .sections img {
-  width: 75%;
+  position: relative;
+  width: 60%;
   margin-top: 0;
+  top: -90px;
+  left: 40px;
+  z-index: 5;
 }
 .background-image {
   background-image: url('../img/blank-day.png');

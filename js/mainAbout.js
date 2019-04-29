@@ -33,7 +33,7 @@ class Token {
 				const main = document.querySelector('main')
 				const section = document.createElement('section');
 				main.appendChild(section)
-				section.className = 'sections';
+				section.className = 'sections background-image';
 			// H2 in section elements
 				const sectionH2 = document.createElement('h2');
 				sectionH2.textContent = attrs.secH2;
