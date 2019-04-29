@@ -47,33 +47,41 @@ class Token {
 const wifeBday = new Token({
 		secH2: "Wife's Birthday!",
 		text: "Make her the happiest woman on Earth!",
+		img: ''
 	});
 const neverMis = new Token({
 		secH2: "Never miss the special days!",
 		text: "A reminder can save a relationship!",
+		img: ''
 	});
 const aniversary = new Token({
 		secH2: 'Aniversary!',
-		text: 'Make it the best one ever!'
+		text: 'Make it the best one ever!',
+		img: ''
 	});
 const textNotification = new Token({
 		secH2: "Text Notifications!",
 		text: "Reminder's when you need them!",
+		img: ''
 	});
 const GFbday = new Token({
 		secH2: "Girlfriend's Birthday",
-		text: 'Gotta keep the good times rolling!'
+		text: 'Gotta keep the good times rolling!',
+		img: ''
 	});
 const HusbandBday = new Token({
 	secH2: "Husband's Birthday",
-	text: 'Even if he forgot!'
+	text: 'Even if he forgot!',
+	img: ''
 });
 const ParentsAniversary = new Token({
 	secH2: 'Parents Aniversary',
-	text: "A milestone everyone should celebrate!"
+	text: "A milestone everyone should celebrate!",
+	img: ''
 });
 const bFF = new Token({
 	secH2: 'BFF',
-	text: "Been friends forever, time to celebrate!"
+	text: "Been friends forever, time to celebrate!",
+	img: ''
 });
 

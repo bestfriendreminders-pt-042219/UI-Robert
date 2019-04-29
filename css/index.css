@@ -55,6 +55,10 @@
   text-indent: 10px;
   padding: 10px;
 }
+.main .sections img {
+  width: 75%;
+  margin-top: 0;
+}
 .background-image {
   background-image: url('../img/blank-day.png');
   background-position: center;

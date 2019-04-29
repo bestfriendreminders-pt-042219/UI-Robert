@@ -45,32 +45,38 @@ class Token {
 				const pElements = document.createElement('p');
 				pElements.textContent = attrs.text;
 				sectionH2.appendChild(pElements)
+
+			// Img in sections
+				const img = document.createElement('img');
+				img.setAttribute('src', attrs.img);
+				section.appendChild(img);
 			}
 		}; // End of Token class
 
-const token = new Token({
-		secH2: 'SOmething goes here',
-		text: 'A long winded explanation of nothing.'
+const leila = new Token({
+		secH2: 'Leila Berrouaye',
+		text: '',
+		img: 'img/leila.jpg'
 	});
 
-const anotherToken = new Token({
-		secH2: 'Another token!',
-		text: 'A long winded explanation of nothing.'
+const robert = new Token({
+		secH2: 'Robert Kulp',
+		text: '',
+		img: ''
 	});
 const thirdToken = new Token({
-		secH2: 'And another',
-		text: 'A long winded explanation of nothing.'
+		secH2: '',
+		text: '',
+		img: ''
 	});
 const fourthToken = new Token({
-	secH2: 'And Another',
-	text: 'A long winded explanation of nothing.'
+	secH2: '',
+	text: '',
+	img: ''
 });
 const fifthToken = new Token({
 	secH2: 'And Another',
-	text: 'A long winded explanation of nothing.'
-});
-const sixthToken = new Token({
-	secH2: 'Another',
-	text: 'A long winded explanation of nothing.'
+	text: 'A long winded explanation of nothing.',
+	img: ''
 });
 
