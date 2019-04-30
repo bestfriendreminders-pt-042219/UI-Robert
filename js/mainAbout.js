@@ -9,7 +9,7 @@ class Main {
 
 // FIgure out how to insert before. Will come back to. 
 		const titleSection = document.querySelector('#mainTitleSection');
-		const mainTitle = document.createElement('h1');
+		const mainTitle = document.createElement('h2');
 		mainTitle.textContent = 'Your calendar at your fingertips!';
 
 		const signInButton = document.createElement('button')
