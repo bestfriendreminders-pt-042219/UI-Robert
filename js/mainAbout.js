@@ -62,7 +62,7 @@ const leila = new Token({
 const robert = new Token({
 		secH2: 'Robert Kulp',
 		text: '',
-		img: ''
+		img: 'img/robert.jpg'
 	});
 const thirdToken = new Token({
 		secH2: '',
