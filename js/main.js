@@ -17,7 +17,9 @@ class Main {
 
 		titleSection.appendChild(mainTitle)
 		titleSection.appendChild(signInButton)
-console.log(titleSection)		
+// console.log(titleSection)	
+
+			
 	}
 }
 
