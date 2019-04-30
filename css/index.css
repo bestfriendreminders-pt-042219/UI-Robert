@@ -100,6 +100,11 @@
   left: 40px;
   z-index: 5;
 }
+@media (max-width: 1000px) {
+  .main .sections {
+    margin: 1%;
+  }
+}
 .background-image {
   background-image: url('../img/blank-day.png');
   background-position: center;
