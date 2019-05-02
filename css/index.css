@@ -178,11 +178,18 @@ footer img {
 .sectionSlide {
   animation-duration: 3s;
   animation-name: move;
+  animation-timing-function: ease-out;
 }
 @keyframes move {
   from {
     left: 1500px;
     opacity: 0;
+  }
+  30% {
+    opacity: 0.2;
+  }
+  75% {
+    opacity: 0.8;
   }
   to {
     left: 0;
@@ -192,16 +199,72 @@ footer img {
 main h1 {
   animation-duration: 4s;
   animation-name: landingH1;
+  animation-timing-function: ease-in;
 }
 @keyframes landingH1 {
   from {
     font-size: 1em;
     margin-bottom: 500px;
+    line-height: 1em;
+    opacity: 1;
   }
   to {
     margin-top: 10%;
-    font-size: 10em;
+    font-size: 13em;
     margin-bottom: 500px;
+    line-height: 2em;
+    opacity: 0;
+  }
+}
+@media (max-width: 1040px) {
+  @keyframes landingH1 {
+    from {
+      font-size: 1em;
+      margin-bottom: 500px;
+      line-height: 1em;
+      opacity: 1;
+    }
+    to {
+      margin-top: 10%;
+      font-size: 8em;
+      margin-bottom: 500px;
+      line-height: 2em;
+      opacity: 0;
+    }
+  }
+}
+@media (max-width: 800px) {
+  @keyframes landingH1 {
+    from {
+      font-size: 1em;
+      margin-bottom: 500px;
+      line-height: 1em;
+      opacity: 1;
+    }
+    to {
+      margin-top: 10%;
+      font-size: 6em;
+      margin-bottom: 500px;
+      line-height: 2em;
+      opacity: 0;
+    }
+  }
+}
+@media (max-width: 500px) {
+  @keyframes landingH1 {
+    from {
+      font-size: 1em;
+      margin-bottom: 500px;
+      line-height: 1em;
+      opacity: 1;
+    }
+    to {
+      margin-top: 10%;
+      font-size: 4em;
+      margin-bottom: 500px;
+      line-height: 3em;
+      opacity: 0;
+    }
   }
 }
 .displayNone {

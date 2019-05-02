@@ -7,13 +7,8 @@ class Main {
 		main = document.querySelector('main');
 		main.className = 'main';
 
-	// First animation on landing...
-		const mainLanding = document.createElement('h1')
-		main.appendChild(mainLanding);
-		mainLanding.textContent = 'BE a better friend!';
-		setTimeout(function(){
-			mainLanding.className = 'displayNone';
-		}, 3500)
+	// First animation method call
+		main.addEventListener('onload', this.landingAnimation())
 
 	// Title section containing the sign in button.
 		const titleSection = document.querySelector('#mainTitleSection');
@@ -30,33 +25,56 @@ class Main {
 		titleSection.appendChild(mainTitle)
 		titleSection.appendChild(signInButton)
 	}
+// First animation on the index page. 
+	landingAnimation(main) {
+		main = document.querySelector('main');
+		const mainLanding = document.createElement('h1')
+		main.appendChild(mainLanding);
+		mainLanding.innerHTML = 'BETTER <br> FRIENDS <br> REMEMBER!';
+		
+		setTimeout(function(){
+			mainLanding.className = 'displayNone';
+		}, 3500)
+	}
 }
 
 const main = new Main();
 class Token {
-			constructor(attrs){
-			// Grabs the main html element.
-				const main = document.querySelector('main')
-				const section = document.createElement('section');
-				main.appendChild(section)
+	constructor(attrs){
+	// Grabs the main html element.
+		const main = document.querySelector('main')
+		const section = document.createElement('section');
+		main.appendChild(section)
 
-			// Animation for section card to slide in...
-				section.className = 'displayNone';
-				setTimeout(function(){
-					section.className = 'sections background-image sectionSlide';
-				}, 3000)
+	// Animation for section card to slide in...
+		section.className = 'displayNone';
+		setTimeout(function(){
+			section.className = 'sections background-image sectionSlide';
+		}, 3000)
 
-			// H2 elements in sections html
-				const sectionH2 = document.createElement('h2');
-				sectionH2.textContent = attrs.secH2;
-				section.appendChild(sectionH2)
+	// main.addEventListener('onload', this.slideInAnimatin());
 
-			// P elements in section html. 
-				const pElements = document.createElement('p');
-				pElements.textContent = attrs.text;
-				section.appendChild(pElements)
-			}
-		}; // End of Token class
+	// H2 elements in sections html
+		const sectionH2 = document.createElement('h2');
+		sectionH2.textContent = attrs.secH2;
+		section.appendChild(sectionH2)
+
+	// P elements in section html. 
+		const pElements = document.createElement('p');
+		pElements.textContent = attrs.text;
+		section.appendChild(pElements)
+	}
+
+	// slideInAnimatin(attrs){
+	// 	// Animation for section card to slide in...
+	// 	const main = document.querySelector('main')
+	// 	const section = document.createElement('section');
+	// 	section.className = 'displayNone';
+	// 	setTimeout(function(){
+	// 		section.className = 'sections background-image sectionSlide';
+	// 	}, 3000)
+	// }
+}; // End of Token class
 
 
 // Cards in the main section. Can be modified to hold whatever is needed. 
