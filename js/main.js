@@ -40,29 +40,41 @@ class Main {
 
 const main = new Main();
 class Token {
-			constructor(attrs){
-			// Grabs the main html element.
-				const main = document.querySelector('main')
-				const section = document.createElement('section');
-				main.appendChild(section)
+	constructor(attrs){
+	// Grabs the main html element.
+		const main = document.querySelector('main')
+		const section = document.createElement('section');
+		main.appendChild(section)
 
-			// Animation for section card to slide in...
-				section.className = 'displayNone';
-				setTimeout(function(){
-					section.className = 'sections background-image sectionSlide';
-				}, 3000)
+	// Animation for section card to slide in...
+		section.className = 'displayNone';
+		setTimeout(function(){
+			section.className = 'sections background-image sectionSlide';
+		}, 3000)
 
-			// H2 elements in sections html
-				const sectionH2 = document.createElement('h2');
-				sectionH2.textContent = attrs.secH2;
-				section.appendChild(sectionH2)
+	// main.addEventListener('onload', this.slideInAnimatin());
 
-			// P elements in section html. 
-				const pElements = document.createElement('p');
-				pElements.textContent = attrs.text;
-				section.appendChild(pElements)
-			}
-		}; // End of Token class
+	// H2 elements in sections html
+		const sectionH2 = document.createElement('h2');
+		sectionH2.textContent = attrs.secH2;
+		section.appendChild(sectionH2)
+
+	// P elements in section html. 
+		const pElements = document.createElement('p');
+		pElements.textContent = attrs.text;
+		section.appendChild(pElements)
+	}
+
+	// slideInAnimatin(attrs){
+	// 	// Animation for section card to slide in...
+	// 	const main = document.querySelector('main')
+	// 	const section = document.createElement('section');
+	// 	section.className = 'displayNone';
+	// 	setTimeout(function(){
+	// 		section.className = 'sections background-image sectionSlide';
+	// 	}, 3000)
+	// }
+}; // End of Token class
 
 
 // Cards in the main section. Can be modified to hold whatever is needed. 

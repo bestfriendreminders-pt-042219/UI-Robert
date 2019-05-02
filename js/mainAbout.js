@@ -50,6 +50,12 @@ class Token {
 				const img = document.createElement('img');
 				img.setAttribute('src', attrs.img);
 				section.appendChild(img);
+
+				// Animation for section card to slide in...
+				section.className = 'displayNone';
+				setTimeout(function(){
+					section.className = 'sections background-image sectionSlide';
+				},0)
 			}
 		}; // End of Token class
 
