@@ -5,6 +5,12 @@ class Main {
 		this.main = main;
 		main = document.querySelector('main');
 		main.className = 'main';
+		const mainLanding = document.createElement('h1')
+		main.appendChild(mainLanding);
+		mainLanding.textContent = 'BE a better friend!';
+		setTimeout(function(){
+			mainLanding.className = 'displayNone';
+		}, 3500)
 		// console.log(main)
 
 // FIgure out how to insert before. Will come back to. 
@@ -14,12 +20,17 @@ class Main {
 
 		const signInButton = document.createElement('button')
 		signInButton.textContent = 'Sign In Here';
+		signInButton.addEventListener('click', function() {
+			window.location.href = 'https://friends-reminder.netlify.com/';
+		})
+
+		// signInButton.href = 'test.html';
 
 		titleSection.appendChild(mainTitle)
 		titleSection.appendChild(signInButton)
 // console.log(titleSection)	
 
-			
+
 	}
 }
 
@@ -33,7 +44,11 @@ class Token {
 				const main = document.querySelector('main')
 				const section = document.createElement('section');
 				main.appendChild(section)
-				section.className = 'sections background-image';
+				// section.className = 'sections background-image sectionSlide';
+				section.className = 'displayNone';
+				setTimeout(function(){
+					section.className = 'sections background-image sectionSlide';
+				}, 3000)
 
 				const sectionH2 = document.createElement('h2');
 				sectionH2.textContent = attrs.secH2;
