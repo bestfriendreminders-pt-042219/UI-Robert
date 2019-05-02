@@ -1,6 +1,4 @@
 .header-nav {
-	// position: absolute;	// Take out if needed. 
-	// width: 100%;	// Take out if needed. 
 	display: flex;
 	justify-content: space-around;
 	background-color: @header-background;
@@ -29,7 +27,7 @@
 		text-shadow: 2px 2px @dark;
 	}
 
-// 800px 
+//Max 800px 
 	@media @pad {
 		h1 {
 			font-size: 2em;
@@ -45,7 +43,7 @@
 		}
 	}
 
-// 500px
+//Max 500px
 	@media @mobile {
 		h1 {
 			font-size: 1.3em;
@@ -58,12 +56,14 @@
 	} 
 }
 
+// Max 800px
 @media @pad {
 	.header-nav {
 		height: 140px;
 	}
 }
 
+// Max 500px
 @media @mobile {
 	.header-nav {
 		height: 120px;
@@ -77,7 +77,6 @@
 		a {
 			display: flex;
 			justify-content: center;
-			// margin-left: 50px;
 		}
 	}
 }
