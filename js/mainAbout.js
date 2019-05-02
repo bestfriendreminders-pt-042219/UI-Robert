@@ -62,21 +62,21 @@ const leila = new Token({
 const robert = new Token({
 	secH2: 'Robert Kulp',
 	text: '',
-	img: 'img/robert.jpg'
+	img: 'img/robert-1.jpg'
 });
 const thirdToken = new Token({
-	secH2: '',
+	secH2: 'Brandi Apetsi',
 	text: '',
-	img: ''
+	img: 'img/brandi.jpg'
 });
 const fourthToken = new Token({
-	secH2: '',
+	secH2: 'Greg Urban',
 	text: '',
-	img: ''
+	img: 'img/man-placeholder.png'
 });
 const fifthToken = new Token({
-	secH2: 'And Another',
-	text: 'A long winded explanation of nothing.',
-	img: ''
+	secH2: 'Brandy Rimes',
+	text: '',
+	img: 'img/woman-placeholder.jpg'
 });
 

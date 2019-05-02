@@ -7,13 +7,8 @@ class Main {
 		main = document.querySelector('main');
 		main.className = 'main';
 
-	// First animation on landing...
-		const mainLanding = document.createElement('h1')
-		main.appendChild(mainLanding);
-		mainLanding.textContent = 'BE a better friend!';
-		setTimeout(function(){
-			mainLanding.className = 'displayNone';
-		}, 3500)
+	// First animation method call
+		main.addEventListener('onload', this.landingAnimation())
 
 	// Title section containing the sign in button.
 		const titleSection = document.querySelector('#mainTitleSection');
@@ -29,6 +24,17 @@ class Main {
 
 		titleSection.appendChild(mainTitle)
 		titleSection.appendChild(signInButton)
+	}
+// First animation on the index page. 
+	landingAnimation(main) {
+		main = document.querySelector('main');
+		const mainLanding = document.createElement('h1')
+		main.appendChild(mainLanding);
+		mainLanding.innerHTML = 'BETTER <br> FRIENDS <br> REMEMBER!';
+		
+		setTimeout(function(){
+			mainLanding.className = 'displayNone';
+		}, 3500)
 	}
 }
 
