@@ -52,7 +52,7 @@
 }
 @media (max-width: 500px) {
   .header-nav {
-    height: 120px;
+    height: 150px;
     display: flex;
     flex-direction: column;
   }
@@ -127,6 +127,11 @@
   letter-spacing: 10px;
   text-shadow: 1px 1px #A5A4A2;
 }
+@media (max-width: 500px) {
+  #mainTitleSection {
+    height: 100px;
+  }
+}
 #mainTitleSection button {
   height: 60px;
   background-color: #532516;
@@ -182,7 +187,7 @@ footer img {
 }
 @keyframes move {
   from {
-    left: 1500px;
+    left: 1300px;
     opacity: 0;
   }
   30% {
