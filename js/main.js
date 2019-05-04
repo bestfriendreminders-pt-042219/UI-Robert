@@ -1,4 +1,16 @@
 // Main content class
+// class ViewHeight {
+// 	constructor(body){
+// 		this.body = body;
+// 		body = document.querySelector('body')
+// 		const bodyHeight = window.innerHeight;
+// 		// body.style.height = bodyHeight + 'px';
+// 		console.log(body)
+// 	}
+// }
+
+// const bodyHeight = new ViewHeight();
+
 
 class Main {
 	constructor(main){
@@ -6,6 +18,10 @@ class Main {
 		this.main = main;
 		main = document.querySelector('main');
 		main.className = 'main';
+
+		// const mainHeight = window.innerHeight;
+		// main.style.height = (mainHeight - 400) + 'px';
+		// console.log(mainHeight)
 
 	// First animation method call
 		main.addEventListener('onload', this.landingAnimation())
@@ -17,7 +33,7 @@ class Main {
 
 	// Button creation and link to application. 
 		const signInButton = document.createElement('button')
-		signInButton.textContent = 'Sign In Here';
+		signInButton.textContent = 'Sign In';
 		signInButton.addEventListener('click', function() {
 			window.location.href = 'https://friends-reminder.netlify.com/';
 		})
@@ -50,7 +66,7 @@ class Token {
 		section.className = 'displayNone';
 		setTimeout(function(){
 			section.className = 'sections background-image sectionSlide';
-		}, 2000)
+		}, 3500)
 
 	// main.addEventListener('onload', this.slideInAnimatin());
 
