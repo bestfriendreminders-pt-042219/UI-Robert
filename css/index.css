@@ -182,7 +182,7 @@ footer img {
 }
 @keyframes move {
   from {
-    left: 1500px;
+    left: 1300px;
     opacity: 0;
   }
   30% {

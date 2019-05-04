@@ -50,7 +50,7 @@ class Token {
 		section.className = 'displayNone';
 		setTimeout(function(){
 			section.className = 'sections background-image sectionSlide';
-		}, 3000)
+		}, 2000)
 
 	// main.addEventListener('onload', this.slideInAnimatin());
 
