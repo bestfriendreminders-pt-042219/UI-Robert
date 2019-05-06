@@ -70,6 +70,7 @@
   padding: 50px;
   background-color: #975D41;
   height: auto;
+  min-height: 800px;
 }
 .main .sections {
   position: relative;
