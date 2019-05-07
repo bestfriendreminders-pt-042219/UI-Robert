@@ -78,7 +78,7 @@ const thirdToken = new Token({
 const fourthToken = new Token({
 	secH2: 'Greg Urban',
 	text: '',
-	img: 'img/man-placeholder.png'
+	img: 'img/greg.jpg'
 });
 const fifthToken = new Token({
 	secH2: 'Brandy Rimes',
