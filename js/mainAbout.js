@@ -14,7 +14,7 @@ class Main {
 
 	// Button creation and link to application. 
 		const signInButton = document.createElement('button')
-		signInButton.textContent = 'Sign In Here';
+		signInButton.textContent = 'Sign In';
 		signInButton.addEventListener('click', function() {
 			window.location.href = 'https://friends-reminder.netlify.com/';
 		})
